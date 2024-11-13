@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evolve - Sala de Fitness</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+            <h1>Evolve</h1>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#about">Despre Noi</a></li>
+                <li><a href="#services">Servicii</a></li>
+                <li><a href="#gallery">Galerie</a></li>
+                <li><a href="#login">Logare</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Banner Section -->
+    <section class="banner">
+        <h2>Transformă-ți viața la Evolve</h2>
+        <p>Un loc unde să-ți atingi toate obiectivele de fitness!</p>
+    </section>
+
+ <!-- Gallery Section -->
+ <section id="gallery" class="gallery">
+    <h3></h3>
+    <div class="gallery-images">
+        <img src="assets/fitness1.jpg" alt="Sala de Fitness 1">
+        <img src="assets/fitness2.jpg" alt="Sala de Fitness 2">
+        <img src="assets/fitness3.jpg" alt="Sala de Fitness 3">
+    </div>
+</section>
+<!-- Login Section -->
+<section id="login" class="login">
+    <h3>Logare Membri</h3>
+    <form id="loginForm">
+        <input type="text" placeholder="Nume utilizator" required>
+        <input type="password" placeholder="Parolă" required>
+        <button type="submit">Logare</button>
+    </form>
+    <p id="loginMessage"></p>
+</section>
+<script type="text/javascript">
+    (function(d, t) {
+        var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+        v.onload = function() {
+          window.voiceflow.chat.load({
+            verify: { projectID: '6728bd0f3f38d31cb4ad00eb' },
+            url: 'https://general-runtime.voiceflow.com',
+            versionID: 'production'
+          });
+        }
+        v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+    })(document, 'script');
+  </script>
+</body>
+</html>
+ <!-- Services Section -->
+ <section id="services" class="services">
+    <h3>Serviciile Noastre</h3>
+    <ul>
+        <li>Antrenamente personalizate</li>
+        <li>Yoga și pilates</li>
+        <li>Clase de grup</li>
+    </ul>
+</section>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h3>Despre Noi</h3>
+        <p>Evolve Gym este o sală de fitness modernă, echipată cu aparatură de ultimă generație și antrenori certificați.</p>
+    </section>
+
+   
+   
